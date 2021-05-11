@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Housing</title>
+
+  <!-- SLICK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
+  <!-- FANCYBOX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="top"><i class="fa fa-arrow-up"></i></button>
+  <header>
+    <div class="header__container">
+      <div class="header__logo">
+        <h1><a href="#">Hous<span>ing</span></a></h1>
+      </div>
+      <nav>
+        <ul id="mainNav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#agents">Agents</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="carousel">
+    <div class="single-item">
+      <div class="carousel__item carousel__item--img1">
+        <div class="carousel__align">
+          <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__item carousel__item--img2">
+        <div class="carousel__align">
+          <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__item carousel__item--img3">
+        <div class="carousel__align">
+          <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__item carousel__item--img4">
+        <div class="carousel__align">
+          <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="about__container container">
+      <h3>About</h3>
+      <div class="about__grid">
+        <div class="about__item">
+          <i class="fa fa-house-damage"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+        <div class="about__item">
+          <i class="fa fa-key"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+        <div class="about__item">
+          <i class="fa fa-money-bill"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="about__us">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit sed,
+          molestie
+          nulla. Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae velit sagittis
+          vehicula.
+          Duis posuere ex in mollis iaculis. Suspendisse tincidunt ut velit id euismod.vulputate turpis porta ex
+          sodales,
+          dignissim hendrerit eros sagittis. Curabitur lacinia dui ut luctus congue. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Cras quis</p>
+      </div>
+    </div>
+  </section>
+  <section class="stats">
+    <div class="stats__container container">
+      <h3>Stats</h3>
+      <div class="stats__grid stats__grid--">
+        <div class="stats__item">
+          <p class="counter">3500</p>
+          <p>clients</p>
+        </div>
+        <div class="stats__item">
+          <p class="counter">650</p>
+          <p>Plans</p>
+        </div>
+        <div class="stats__item">
+          <p class="counter">1021</p>
+          <p>projects</p>
+        </div>
+        <div class="stats__item">
+          <p class="counter">1010</p>
+          <p>Likes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="blog" class="blog">
+    <div class="blog__container container">
+      <h3>Blog</h3>
+      <div class="blog__grid">
+        <div class="blog__item">
+          <img src="./images/g1.jpg" alt="">
+          <div class="blog__text">
+            <h5><a href="./images/g1.jpg" data-fancybox data-src="#pic1" href="javascript:;">Lorem, ipsum dolor.</a>
+            </h5>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <a href="./images/g1.jpg" data-fancybox data-src="#pic1" href="javascript:;">Read more..</a>
+          </div>
+        </div>
+        <div style="display: none;" id="pic1" class="blog__modal">
+          <div class="blog__title">
+            <h3>Housing</h3>
+          </div>
+          <img src="./images/g1.jpg" alt="">
+          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+            ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+            molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div>
+        <div class="blog__item">
+          <img src="./images/g2.jpg" alt="">
+          <div class="blog__text">
+            <h5><a href="./images/g2.jpg" data-fancybox data-src="#pic2" href="javascript:;">Lorem, ipsum dolor.</a>
+            </h5>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <a href="./images/g2.jpg" data-fancybox data-src="#pic2" href="javascript:;">Read more..</a>
+          </div>
+        </div>
+        <div style="display: none;" id="pic2" class="blog__modal">
+          <div class="blog__title">
+            <h3>Housing</h3>
+          </div>
+          <img src="./images/g2.jpg" alt="">
+          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+            ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+            molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div>
+        <div class="blog__item">
+          <img src="./images/g1.jpg" alt="">
+          <div class="blog__text">
+            <h5><a href="./images/g1.jpg" data-fancybox data-src="#pic3" href="javascript:;">Lorem, ipsum dolor.</a>
+            </h5>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <a href="./images/g1.jpg" data-fancybox data-src="#pic3" href="javascript:;">Read more..</a>
+          </div>
+        </div>
+        <div style="display: none;" id="pic3" class="blog__modal">
+          <div class="blog__title">
+            <h3>Housing</h3>
+          </div>
+          <img src="./images/g1.jpg" alt="">
+          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+            ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+            molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video">
+    <div class="video__container">
+      <div class="video__thumbnail">
+        <img src="./images/video.jpg" alt="">
+        <a data-fancybox data-src="#clip" href="javascript:;">
+          <i class="fa fa-play-circle"></i>
+        </a>
+
+        <div style="display: none;" id="clip" class="video__modal">
+          <div class="video__border">
+            <video width="450" height="250" controls>
+              <source src="./video/INTRO_FINAL_NEW.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="video__text">
+        <h2>Get More..</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim veniam,
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi esse
+          quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        <a href="./images/g1.jpg" data-fancybox data-src="#clip1" href="javascript:;">Read more..</a>
+        <div style="display: none;" id="clip1" class="blog__modal">
+          <div class="blog__title">
+            <h3>Housing</h3>
+          </div>
+          <img src="./images/g1.jpg" alt="">
+          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+            ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+            molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="portfolio__container container">
+      <h3>Portfolio</h3>
+      <div class="portfolio__grid">
+        <div class="portfolio__item">
+          <img src="./images/img1.jpg" alt="">
+          <a href="./images/img1.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/img2.jpg" alt="">
+          <a href="./images/img2.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/img3.jpg" alt="">
+          <a href="./images/img3.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/img4.jpg" alt="">
+          <a href="./images/img4.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/img5.jpg" alt="">
+          <a href="./images/img5.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio__item">
+          <img src="./images/img6.jpg" alt="">
+          <a href="./images/img6.jpg" data-fancybox="gallery">
+            <div class="portfolio__overlay">
+              <h4>GALLERY</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="subscribe__container container">
+      <h3>Subscribe</h3>
+      <p>consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi</p>
+      <form>
+        <input type="email" placeholder="Email" required>
+        <button>Click</button>
+      </form>
+    </div>
+  </section>
+  <section id="agents" class="agents">
+    <div class="agents__container container">
+      <h3>Our Agents</h3>
+      <div class="agents__grid">
+        <div class="agents__item">
+          <img src="./images/t1.jpg" alt="">
+          <div class="agents__text">
+            <h4>KAT WALLY</h4>
+            <p>Lorem, ipsum.</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="agents__item">
+          <img src="./images/t2.jpg" alt="">
+          <div class="agents__text">
+            <h4>JOHN MAX</h4>
+            <p>Lorem, ipsum.</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="agents__item">
+          <img src="./images/t3.jpg" alt="">
+          <div class="agents__text">
+            <h4>ROY KENT</h4>
+            <p>Lorem, ipsum.</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="agents__item">
+          <img src="./images/t4.jpg" alt="">
+          <div class="agents__text">
+            <h4>JOY IDSON</h4>
+            <p>Lorem, ipsum.</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <div class="map__container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3926.13357485737!2d105.9688328!3d10.2508093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a9d32a6a476e7%3A0x3479b794953e9ab1!2zNjggVsO1IFRo4buLIFPDoXUsIFBoxrDhu51uZyAxLCBWxKluaCBMb25nLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1620745288383!5m2!1sen!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="contact__container container">
+      <h3>Contact Us</h3>
+      <form>
+        <div class="contact__left">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Last Name">
+          <input type="email" placeholder="Email">
+          <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone">
+        </div>
+        <div class="contact__right">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="footer__container container">
+      <p>© 2017 Housing. All Rights Reserved | Design by <a href="#">W3layouts</a></p>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+        <li><a href="#"><i class="fab fa-vk"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- script embeded here -->
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- SLICK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('.single-item').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 1000
+    });
+  </script>
+
+  <!-- FANCYBOX -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <!-- WAYPOINTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous"></script>
+
+  <!-- COUNTUP -->
+  <script src='./js/jquery.countup.js'></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+
+  <!-- Menu Active -->
+  <script>
+    var mainNav = document.getElementById("mainNav");
+    var listNav = mainNav.getElementsByTagName("li");
+    for (var i = 0; i < listNav.length; i++) {
+      listNav[i].addEventListener("click", function () {
+        var current = document.querySelector("#mainNav .active");
+        if (current) {
+          current.className = current.className.replace("active", "");
+          this.className += "active";
+        } else {
+          this.className += "active";
+        }
+      });
+    }
+    window.addEventListener("click", (event) => {
+      if (mainNav.contains(event.target)) {
+        return;
+      } else {
+        var current = document.querySelector("#mainNav .active");
+        if (current) {
+          current.classList.remove("active");
+        }
+      }
+    })
+  </script>
+
+  <!-- BACK TO TOP BUTTON -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
